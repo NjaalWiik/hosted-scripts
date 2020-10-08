@@ -61,9 +61,6 @@ var options = {
       enabled: false
     }
   },
-  sparkline: {
-    enabled: true
-  },
   colors: ['#407CDE'],
   dataLabels: {
     enabled: true
@@ -105,7 +102,8 @@ var options = {
   },
   tooltip: {
     x: {
-      format: 'string'
+      format: 'string',
+      show: false
     },
     fixed: {
       enabled: false,
